@@ -1,0 +1,197 @@
+$: sound(
+  `
+  <bd bd bd bd*2 [- bd] [bd -] - ->
+  `
+).
+  bank("rolandtr808").
+  lpf("<100 300 500 700 900 1200 1500 1700>").
+  fast(8).
+  cpm(120/4)
+
+$: sound(
+  `
+  bd bd bd bd
+  `
+).
+  bank("ace").
+  lpf("<100 300 500 700 900 1200 1500 1700>").
+  cpm(120/4).
+  _pianoroll()
+$: sound(
+  `
+  hh hh*2 hh hh*2 [- hh] hh - -,
+  hh*16,
+  <- - - perc>
+  `
+).
+  bank("<spacedrum spacedrum spacedrum ace>").
+  lpf(slider(1058.1, 100, 1200)).
+  cpm(120/4)
+
+$: note(
+  `
+  a3 a#3 b3 c4
+  `
+).
+  sound("triangle, sine").
+  adsr("0:0.3:0.3:0.5").
+  pan("[.5 .2 .5 .8]").
+  hpf("<100 200 300 500>").
+  cpm(120/4)
+
+$: note(
+  `
+  a2 a2 a2 a2*2 [- a2] a2 - -
+  `
+).
+  sound("sawtooth").
+  adsr("0.05:0.1:0.1:0.1").
+  lpf("<0 200 0 500>").
+  cpm(120/4)$: sound(
+  `
+  <bd bd bd bd*2 [- bd] [bd -] - ->
+  `
+).
+  bank("rolandtr808").
+  lpf("<100 300 500 700 900 1200 1500 1700>").
+  fast(8).
+  cpm(120/4)
+
+$: sound(
+  `
+  bd bd bd bd
+  `
+).
+  bank("ace").
+  lpf("<100 300 500 700 900 1200 1500 1700>").
+  cpm(120/4).
+  _pianoroll()
+$: sound(
+  `
+  hh hh*2 hh hh*2 [- hh] hh - -,
+  hh*16,
+  <- - - perc>
+  `
+).
+  bank("<spacedrum spacedrum spacedrum ace>").
+  lpf(slider(1058.1, 100, 1200)).
+  cpm(120/4)
+
+$: note(
+  `
+  a3 a#3 b3 c4
+  `
+).
+  sound("triangle, sine").
+  adsr("0:0.3:0.3:0.5").
+  pan("[.5 .2 .5 .8]").
+  hpf("<100 200 300 500>").
+  cpm(120/4)
+
+$: note(
+  `
+  a2 a2 a2 a2*2 [- a2] a2 - -
+  `
+).
+  sound("sawtooth").
+  adsr("0.05:0.1:0.1:0.1").
+  lpf("<0 200 0 500>").
+  cpm(120/4)$: sound(
+  `
+  <bd bd bd bd*2 [- bd] [bd -] - ->
+  `
+).
+  bank("rolandtr808").
+  lpf("<100 300 500 700 900 1200 1500 1700>").
+  fast(8).
+  cpm(120/4)
+
+$: sound(
+  `
+  bd bd bd bd
+  `
+).
+  bank("ace").
+  lpf("<100 300 500 700 900 1200 1500 1700>").
+  cpm(120/4).
+  _pianoroll()
+$: sound(
+  `
+  hh hh*2 hh hh*2 [- hh] hh - -,
+  hh*16,
+  <- - - perc>
+  `
+).
+  bank("<spacedrum spacedrum spacedrum ace>").
+  lpf(slider(1058.1, 100, 1200)).
+  cpm(120/4)
+
+$: note(
+  `
+  a3 a#3 b3 c4
+  `
+).
+  sound("triangle, sine").
+  adsr("0:0.3:0.3:0.5").
+  pan("[.5 .2 .5 .8]").
+  hpf("<100 200 300 500>").
+  cpm(120/4)
+
+$: note(
+  `
+  a2 a2 a2 a2*2 [- a2] a2 - -
+  `
+).
+  sound("sawtooth").
+  adsr("0.05:0.1:0.1:0.1").
+  lpf("<0 200 0 500>").
+  cpm(120/4)$: sound(
+  `
+  <bd bd bd bd*2 [- bd] [bd -] - ->
+  `
+).
+  bank("rolandtr808").
+  lpf("<100 300 500 700 900 1200 1500 1700>").
+  fast(8).
+  cpm(120/4)
+
+$: sound(
+  `
+  bd bd bd bd
+  `
+).
+  bank("ace").
+  lpf("<100 300 500 700 900 1200 1500 1700>").
+  cpm(120/4).
+  _pianoroll()
+$: sound(
+  `
+  hh hh*2 hh hh*2 [- hh] hh - -,
+  hh*16,
+  <- - - perc>
+  `
+).
+  bank("<spacedrum spacedrum spacedrum ace>").
+  lpf(slider(1058.1, 100, 1200)).
+  cpm(120/4)
+
+$: note(
+  `
+  a3 a#3 b3 c4
+  `
+).
+  sound("triangle, sine").
+  adsr("0:0.3:0.3:0.5").
+  pan("[.5 .2 .5 .8]").
+  hpf("<100 200 300 500>").
+  cpm(120/4)
+
+$: note(
+  `
+  a2 a2 a2 a2*2 [- a2] a2 - -
+  `
+).
+  sound("sawtooth").
+  adsr("0.05:0.1:0.1:0.1").
+  lpf("<0 200 0 500>").
+  cpm(120/4)
